@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Expense Tracker
+
+![Expense Tracker App Image](./public/expense_tracker_app.jpg)
+
+## About Expense Tracker app
+
+- The app provides basic features for tracking your expenses such as adding your income, expenditures and deleting tracked items when you no longer need it.
+- Uses modern react with functional components, hooks and Context API. Created for getting a better understanding of Context API, localStorage and hooks.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
