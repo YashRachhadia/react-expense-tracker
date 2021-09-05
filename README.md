@@ -1,6 +1,6 @@
 # Expense Tracker
 
-![Expense Tracker App Image](./public/expense_tracker_app.jpg)
+![Expense Tracker App Image](/public/expense_tracker_app.jpg)
 
 ## About Expense Tracker app
 
