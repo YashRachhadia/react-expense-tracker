@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #5095e4;
+  background-color: #c5d0db;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,7 +37,7 @@ h1 {
 }
 
 h2 {
-  color: white;
+  color: black;
   text-align: center;
 }
 
