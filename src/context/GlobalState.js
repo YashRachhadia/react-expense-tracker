@@ -2,7 +2,9 @@ import React, { createContext, useReducer } from "react";
 import GlobalReducer from "./GlobalReducer";
 
 const initialState = {
-  transactions: JSON.parse(localStorage.getItem("transactions")),
+  transactions: localStorage.getItem("transactions")
+    ? JSON.parse(localStorage.getItem("transactions"))
+    : [],
 };
 
 //Create Context
