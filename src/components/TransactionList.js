@@ -12,11 +12,15 @@ const TransactionList = () => {
   return (
     <>
       <h3>History</h3>
-      <ul id="list" className="list">
-        {transactions.map((transaction) => (
-          <Transaction key={transaction.id} transaction={transaction} />
-        ))}
-      </ul>
+      {transactions && transactions.length ? (
+        <ul id="list" className="list">
+          {transactions.map((transaction) => (
+            <Transaction key={transaction.id} transaction={transaction} />
+          ))}
+        </ul>
+      ) : (
+        <p>No history of transactions</p>
+      )}
     </>
   );
 };
